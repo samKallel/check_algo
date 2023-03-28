@@ -10,12 +10,12 @@ cptV :=0;
 writeln ("Ecrivez la phrase svp");
 readln (ph);
 l:= ph[0];
-WHILE (l<> '.') DO
+WHILE (l <> '.') DO
   cptC:= cptC +1;
   IF ( l in ["a","e","u","i","o","y"]) or ( l in ["A","E","U","I","O","Y"] ) THEN
    cptV:= cptV +1 ;
   }
-  if (l==' ' )THEN {
+  if (l=' ' )THEN {
     cptM := cptM+1;
   }
   l:=ph[cptC];
